@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here : it automatically finds the different lines between two files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here : no need to create a lot of files for all versions.. shorter debugging time?
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here : pros - you can control the modification unit.(allow users to choose when to create checkpoints - each version will represent logical change) lots of flexibility. good for saving versions for the 'code' since only the developer oneself will know the checkpoint! / cons - if you forget to commit, it will not be saved. when lots of people are working together on the same project, commit unit should be acceptable for everyone or version history will become messy.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here : I think that is due to the different nature of files that each VCS takes care of. Google docs just manages docs file, where each file are not really interconnected really. But in coding, multiple files for one project are all interconnected. To change one functionality in one file, you may need to modify multiple files and for the code to function, states of those files should all be tracked simultaneously!
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here : git log => find commit id & commit message. / git log --stat => also get the simple statistics for each commit (number of insertions and deletions). / git diff => compare the difference between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here : you can always find at which point your code introduced a bug, by using 'git checkout'. And it makes it easier for a programmer to explore changing the entire code base, without worrying about breaking the whole system.
+
+Now that you have your workspace set up, what do you want to try using Git for? : version control :D
