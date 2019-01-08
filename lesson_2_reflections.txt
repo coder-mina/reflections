@@ -15,6 +15,7 @@ organized? How would branches help?
 : performing some independent experiments! you can always easily go back to the updated master version.
 
 How do the diagrams help you visualize the branch structure?
+: namely, we can view the nonlinear commit history (branch) in a more understandable manner.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
