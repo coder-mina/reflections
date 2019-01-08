@@ -24,3 +24,5 @@ So, it makes sense to "merge" the lines in the diagram.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+: automatic merging : pros - this feature makes collaboration much faster! cons - I think there is a possbility that merged code turns out to be not the one you intended. (need to do testing)
+manual merging : pros - complete control over the code. cons - too slow combining the works
