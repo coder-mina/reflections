@@ -26,4 +26,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Fill in your answer here : when you want to let your collaborator know that you want to make a change! (let your collaborator confirm the change before actually making that change on the master.)
